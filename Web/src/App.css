@@ -1,0 +1,135 @@
+.i {
+  font-size: 25px;
+  margin: 0px 15px;
+  color: #fff;
+}
+i:hover {
+  opacity: 0.7;
+}
+li .nav-item {
+  color: white;
+}
+.close {
+  font-size: 30px;
+}
+.dropdown-menu {
+  left: -120px !important;
+  width: 184px !important;
+}
+.dropdown_post {
+  left: -120px !important;
+  width: 84px !important;
+}
+.list-group-item {
+  border: 0px !important;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+.list-group-item:hover {
+  background-color: #eee;
+}
+.list-group-item i {
+  font-size: 25px;
+}
+.list {
+  position: fixed;
+  width: 300px;
+  margin-top: 70px;
+}
+nav .form-control {
+  border-radius: 16px;
+}
+.post {
+  height: auto;
+  border-radius: 16px;
+}
+.form-icon i {
+  font-size: 22px;
+}
+.i-creatPost:hover {
+  color: #007bff !important;
+}
+
+/******** chat ********/
+img {
+  max-width: 100%;
+}
+
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+.sent_msg p {
+  background: #f0f2f5 none repeat scroll 0 0;
+  border-radius: 15px;
+  font-size: 14px;
+  margin: 0;
+  color: #646464;
+  padding: 5px 10px 5px 12px;
+  width: auto;
+}
+.sent_right p {
+  background: #007bff none repeat scroll 0 0;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.outgoing_msg {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+.outgoing_right {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+.sent_msg {
+  float: right;
+  max-width: 46%;
+}
+.sent_right {
+  float: left;
+  max-width: 46%;
+}
+.input_msg_write input {
+  border: 0;
+  width: 80%;
+  border-radius: 16px;
+  height: 38px;
+  margin: 10px;
+  background-color: #f0f2f5;
+}
+.input_msg_write input:focus {
+  outline: none;
+}
+
+.type_msg {
+  position: relative;
+}
+.msg_send_btn {
+  background: #007bff none repeat scroll 0 0;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 32px;
+  position: absolute;
+  right: 3px;
+  top: 11px;
+  width: 33px;
+  outline: none;
+}
+.msg_send_btn:hover {
+  opacity: 0.7;
+}
+
+.msg_history {
+  height: 460px;
+  overflow-y: auto;
+}

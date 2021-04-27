@@ -1,0 +1,16 @@
+const Input = ({ label, name, error, ...rest }) => {
+  return (
+    <div className="form-group ">
+      <label htmlFor={name}>{label}</label>
+      <input
+        {...rest}
+        name={name}
+        id={name}
+        className="form-control bg-light"
+      />
+      {error && <span className="text-danger">{error}</span>}
+    </div>
+  );
+};
+
+export default Input;
