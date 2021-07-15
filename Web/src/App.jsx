@@ -23,8 +23,11 @@ class App extends Component {
   };
   async componentDidMount() {
     const user = await userService.getCurrentUser();
+    if(user){
     const userInfo = await userService.userInfo();
     this.setState({ user, userInfo });
+    }
+     this.setState({ user}
   }
 
   render() {
